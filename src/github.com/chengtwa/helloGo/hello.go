@@ -2,10 +2,11 @@ package main
 
 import (
 	"fmt"
-	"github.com/chengtwa/stringutil"
+	//reverse the string
+	reverse "github.com/chengtwa/stringutil"
 )
 
 func main() {
 	fmt.Println("Hello World")
-	fmt.Println(stringutil.Reverse("Hello Go"))
+	fmt.Println(reverse.Reverse("Hello Go"))
 }
